@@ -21,3 +21,14 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+
+.popup-body, .timer {
+  font-size: 20px;
+  text-align:center;
+}
+
+
+.timer-txt {
+  margin:auto;
+  font-weight: bold;
+}
