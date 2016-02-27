@@ -1,4 +1,4 @@
-angular.module('app.controllers', [])
+angular.module('app.controllers', ['timer'])
 
 .controller('page1Ctrl', function($scope) {
 
@@ -7,6 +7,6 @@ angular.module('app.controllers', [])
     console.log('starting timer...');
     $scope.time = "25:00";
 
-    
+
   }
 })

@@ -11,6 +11,9 @@
         <div class="spacer" style="width: 300px; height: 18px;"></div>
         <input type="text" ng-model="yourName" placeholder="placeholdfre">
         {{yourName}}
+        Timer start:<timer interval="1000" />
+        ::TimerEND
+        This markup <timer interval="1000">{{hhours}} hour{{hhoursS}}, {{mminutes}} minute{{minutesS}}, {{sseconds}} second{{secondsS}}.</timer>
         <button ng-click="startTimer()" class="button button-balanced button-block  icon-left ion-ios-timer-outline">Start Timer</button>
     </ion-content>
 </ion-view>
