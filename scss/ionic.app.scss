@@ -23,7 +23,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 
 .popup-body, .timer {
-  font-size: 20px;
+  /*font-size: 20px;*/
   text-align:center;
 }
 
@@ -31,4 +31,10 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .timer-txt {
   margin:auto;
   font-weight: bold;
+}
+
+label .timer-txt, .jamie {
+  margin:auto;
+  font-weight: bold;
+  padding-right: 0px !important;
 }
